@@ -4,6 +4,8 @@
     align-items: center;
     padding: 1rem 1rem;
     background-color: #121212;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 #navbar h2 a {
