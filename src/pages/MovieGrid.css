@@ -60,3 +60,8 @@
     color: white;
     border-color: white;
 }
+
+img {
+    max-height: 70%;
+    max-width: 70%;
+}
