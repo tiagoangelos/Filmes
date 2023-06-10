@@ -1,9 +1,10 @@
 .movie-page {
-    color: #efff;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     max-width: 600px;
     margin: 2rem auto;
+    color: #efff;
 }
 
 .movie-page svg {

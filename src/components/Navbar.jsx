@@ -20,7 +20,9 @@ const Navbar = () => {
         <div>
             <nav id='navbar'>
                 <h2>
-                    <Link to='/'><BiCameraMovie />Pesquisar Filmes</Link>
+                    <Link to='/'><BiCameraMovie />
+                    <p id='title-one'>PF</p>
+                    <p id='title-two'>Pesquisar Filmes</p></Link>
                 </h2>
                 <form onSubmit={handleSubmit}>
                     <input type='text' 

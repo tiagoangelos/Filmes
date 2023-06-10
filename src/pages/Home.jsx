@@ -29,12 +29,13 @@ const Home = () => {
                 {topMovies.length === 0 && 
                     <div id='loading'>
                         <span id="spinner"></span>
-                    </div>
+                    </div>    
                 }
                 {topMovies.length > 0 && 
                     topMovies.map((movie) => <MovieCard key={movie.id} movie={movie}/>)
                 }
             </div>
+            
         </div>
     )
 }

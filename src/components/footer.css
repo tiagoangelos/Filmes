@@ -1,0 +1,33 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    background-color: #0e0d0d;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#footer p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#footer #icons {
+    display: flex;
+    gap: .5rem;
+    padding: .6rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+@media(max-width: 770px){
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1rem;
+        background-color: #0e0d0d;
+    }
+}

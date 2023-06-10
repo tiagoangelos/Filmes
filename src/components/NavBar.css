@@ -3,9 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1rem;
-    background-color: #121212;
-    padding-left: 8%;
-    padding-right: 8%;
+    background-color: #0e0d0d;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 #navbar h2 a {
@@ -42,4 +42,32 @@
     background-color: transparent;
     color: white;
     border-color: white;
+}
+
+#title-one {
+    display: none;
+}
+
+#navbar h2 #title-two{
+    display: flex;
+}
+
+@media(max-width: 770px){
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1rem;
+        background-color: #0e0d0d;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    #title-one {
+        display: flex;
+    }
+
+    #navbar h2 #title-two{
+        display: none;
+    }
 }

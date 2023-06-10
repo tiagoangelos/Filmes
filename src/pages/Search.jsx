@@ -42,6 +42,7 @@ const Search = () => {
                 }
             </div>
         </div>
+        
     )
 }
 
