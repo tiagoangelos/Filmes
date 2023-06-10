@@ -29,7 +29,6 @@ const Home = () => {
                 {topMovies.length === 0 && 
                     <div id='loading'>
                         <span id="spinner"></span>
-                        <span id='msg-below-spinner'>Aguarde</span>
                     </div>
                 }
                 {topMovies.length > 0 && 

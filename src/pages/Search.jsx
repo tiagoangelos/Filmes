@@ -35,7 +35,6 @@ const Search = () => {
                 {movies.length === 0 && 
                     <div id='loading'>
                         <span id="spinner"></span>
-                        <span id='msg-below-spinner'>Aguarde</span>
                     </div>
                 }
                 {movies.length > 0 && 
