@@ -1,0 +1,25 @@
+#spinner{
+    border: 8px solid #fff;
+    border-left-color: #f7d354;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: spinner 0.8s linear infinite;
+}
+
+@keyframes spinner{
+    to {transform: rotate(360deg);}
+}
+
+#loading{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg-below-spinner{
+    padding-top: 1.5%;
+}
